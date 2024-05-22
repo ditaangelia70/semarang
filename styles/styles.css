@@ -1,0 +1,274 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+  }
+  
+  .hero-section {
+    background-image: url('Lapangan-Simpang-Lima-Semarang.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-title {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .search-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .search-form .form-control {
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .search-form .btn {
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .jelajah-section {
+    background-color: #f7f7f7;
+  }
+  
+  .section-title {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    border: none;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .informasi-section .card-img-top {
+    height: 200px;
+  }
+  
+  .footer-section {
+    background-color: #005f99;
+    color: white;
+    padding: 60px 0;
+  }
+  
+  .footer-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .footer-form .form-control {
+    width: auto;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  
+  .footer-form .btn {
+    border-radius: 20px;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  .card-hover .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-hover:hover .card-overlay {
+    opacity: 1;
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card-link:hover .card-body,
+  .card-link:hover .card-title {
+    color: inherit;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2em;
+    }
+  
+    .search-form {
+      flex-direction: column;
+    }
+  
+    .search-form .form-control,
+    .search-form .btn {
+      border-radius: 5px;
+      margin: 5px 0;
+    }
+  
+    .section-title {
+      font-size: 2em;
+    }
+  
+    .footer-form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-form .form-control {
+      margin-bottom: 10px;
+    }
+  }
+  .top-bar .social-icon {
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .top-bar .social-icon:hover {
+    color: #007bff;
+  }
+  
+  .top-bar .contact-info a {
+    color: #000;
+    font-size: 14px;
+  }
+  
+  .top-bar .contact-info a:hover {
+    color: #007bff;
+  }
+
+  .jelajah-section {
+    background-size: cover; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Set text color to white or any other suitable color */
+    padding: 50px 0; /* Add padding to the section */
+}
+
+  
+  .why-choose-us .fa-2x {
+    font-size: 1.5em; /* Adjust the size of the icons */
+    color: #ff5722; /* Adjust the color of the icons if needed */
+  }
+
+  .why-choose-us h5 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  .why-choose-us p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+
+
+  /* styles.css */
+
+/* Top bar styles */
+.top-bar {
+  background-color: #f8f9fa;
+  padding: 5px 0;
+}
+
+.social-icons .social-icon {
+  color: #000;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+/* Info Jelajah Section */
+.jelajah-section {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+
+.section-title {
+  color: #333;
+}
+
+.jelajah-section p {
+  color: #666;
+}
+
+/* Paket Periklanan Section */
+.pricing-section {
+  padding: 50px 0;
+}
+
+.pricing-section .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-section .card-body {
+  padding: 20px;
+}
+
+/* Tentang Section */
+.about-section {
+  padding: 50px 0;
+}
+
+/* FAQ Section */
+.faq-section {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+
+.faq-section h5 {
+  color: #333;
+}
+
+.faq-section p {
+  color: #666;
+}
